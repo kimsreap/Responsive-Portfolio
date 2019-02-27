@@ -1,0 +1,309 @@
+* {
+    text-decoration: none;
+}
+body {
+    background-color: gray;
+}
+header {
+    background-color: beige;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-ban {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(13, 34, 34);
+}
+
+/*index*/
+
+.index-ban {
+    width: 100%;
+    height: calc(100vh - 300px);
+    background-image: url('image/IMG_9127.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.index-ban h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aqua;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    text-shadow: 1 black;
+    float: right;
+}
+
+.index-ban h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:hsl(315, 89%, 21%);
+    font-weight: 100;
+    font-style: italic;
+    line-height: 100px;
+    float:right;
+}
+
+.index-banner div {
+    margin: 15px 0px 10px 0px;
+    width: calc(100% - 20px);
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.index-banner div h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    line-height: 100px;
+}
+
+.Me {
+    background-color: #e4dfd8;
+    margin:0px 20px 10px 20px;
+}
+
+.Me h2 {
+    margin: 10px 20px 25px 25px;
+    color: rgb(32, 9, 9);
+    font-size: 30pt;
+    font-style: italic;
+}
+
+.Me p {
+    margin-left: 20px;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer {
+    width:calc(100% - 80px);
+    height: 25px;
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: rgb(165, 157, 157);
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/*media-query*/
+
+@media only screen and (min-width:640px) {
+    header .header-ban {
+        margin:0px 25px 0px 25px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .index-ban h3 {
+        font-size: 30px;
+        color: #095c5c;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .index-ban h4 {
+        font-size: 22px;
+        color:#114b0a;
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .index-banner div {
+        width: auto;
+        height: 80px;
+        background-color:bisque;
+    }
+}
+
+@media only screen and (min-width:640px) {
+    footer {
+        background-color:beige;
+        margin-bottom: 25px;
+        line-height: 25px;
+        color: #110202;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    header .header-ban {
+        font-size: 25px;
+        text-align: left;
+        padding: 0px 20px 0px 40px;
+        margin: 25px 0;
+        display: inline-block;
+        float: left;
+        border-right: 3px solid black;
+        line-height: 30px;
+    }
+    header nav ul {
+        margin:20px 0px 20px 0px;
+        float:right;
+    }
+    header nav ul li {
+        float:right;
+        padding: 0 16px;
+    }
+    header nav ul li a {
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .index-ban h4 {
+        font-size: 33px;
+        color:#114b0a;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    .index-ban h4 {
+        font-size: 20px;
+        color:#114b0a;
+    }
+}
+
+/*Portfolio-section*/
+
+.portfolio-link {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.portfolio-link h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #eee5e5;
+    margin: 25px 0px 10px 15px;
+}
+
+.portfolio-link .portfolio p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #114b0a;
+    text-align: center;
+    padding-top: 40%;
+}
+.portfolio-link .portfolio {
+    width: 300px;
+    height: 300px;
+    margin:20px 10px 5px;
+    background-color: azure;
+    float: left;
+    text-align: center;
+}
+
+/*Contact-section*/
+
+.container-wrapper {
+    margin: 25px;
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #153128;
+}
+
+.container .row {
+    margin: 10px 50px 10px 50px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+textarea {
+    width:250px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+button {
+    margin: 5px 0px 20px 50px;
+    width: 70px;
+    height: 30px;
+    color: #0084ff;
+    background-color: aqua;
+}
+
+@media only screen and (min-width:640px) {
+    input {
+        width: 490px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width:640px) {
+    textarea {
+        width:490px;
+    }
+}
+@media only screen and (min-width:640px) {
+    .container-wrapper {
+        margin-bottom: -18px;
+        height:500px;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    input {
+        width: 800px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width:980px) {
+    textarea {
+        width:800px;
+    }
+}
+@media only screen and (min-width:980px) {
+    footer {
+        margin-top: 5px;
+        line-height: 20px;
+    }
+}
+
+
+
+
