@@ -29,7 +29,6 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    float: left;
     list-style: none;
     padding: 0 16px;
 }
@@ -45,7 +44,7 @@ header nav ul li a {
 
 .index-ban {
     width: 100%;
-    height: calc(100vh - 300px);
+    height: calc(150vh - 300px);
     background-image: url('image/IMG_9127.jpeg');
     background-repeat: no-repeat;
     background-position: center;
@@ -74,7 +73,7 @@ header nav ul li a {
 }
 
 .index-banner div {
-    margin: 15px 0px 10px 0px;
+    margin: 15px 80px 10px 80px;
     width: calc(100% - 20px);
     height: 100px;
     background-color: lightgrey;
@@ -91,30 +90,31 @@ header nav ul li a {
 
 .Me {
     background-color: #e4dfd8;
-    margin:0px 20px 10px 20px;
+    margin:0px 80px 10px 80px;
 }
 
 .Me h2 {
-    margin: 10px 20px 25px 25px;
+    margin-top: 20px;
+    text-align: center;
     color: rgb(32, 9, 9);
     font-size: 30pt;
     font-style: italic;
 }
 
 .Me p {
-    margin-left: 20px;
-    font-size: 20pt;
+    margin: 0px 100px 0px 100px;
+    font-size: 18pt;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
 footer {
-    width:calc(100% - 80px);
+    width:calc(100% - 20%);
     height: 25px;
     padding: 40px 40px;
     margin-top: 20px;
     background-color: rgb(165, 157, 157);
-    margin-bottom: 25px;
+    margin:0 80px 25px 80px;
     text-align: center;
     line-height: 25px;
 }
